@@ -7,6 +7,7 @@
 //
 
 #import "AFNetworkingNocillaTests.h"
+#import "AFNetworking.h"
 
 @implementation AFNetworkingNocillaTests
 

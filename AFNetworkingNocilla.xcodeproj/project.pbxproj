@@ -1,1117 +1,526 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>6E1C0E30766E4AC6A67F7CE9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>1</string>
-		</dict>
-		<key>CBA1299FD7814858A9881342</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D931571E176E7432002057AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9315730176E7432002057AB</string>
-				<string>D9315754176E7432002057AB</string>
-				<string>D9315729176E7432002057AB</string>
-				<string>D9315728176E7432002057AB</string>
-				<string>CBA1299FD7814858A9881342</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D931571F176E7432002057AB</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0460</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Raphael Oliveira</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>D9315722176E7432002057AB</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>D931571E176E7432002057AB</string>
-			<key>productRefGroup</key>
-			<string>D9315728176E7432002057AB</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>D9315726176E7432002057AB</string>
-				<string>D931574C176E7432002057AB</string>
-			</array>
-		</dict>
-		<key>D9315722176E7432002057AB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D931575D176E7432002057AB</string>
-				<string>D931575E176E7432002057AB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D9315723176E7432002057AB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D9315737176E7432002057AB</string>
-				<string>D931573B176E7432002057AB</string>
-				<string>D9315747176E7432002057AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D9315724176E7432002057AB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D931572B176E7432002057AB</string>
-				<string>D931572D176E7432002057AB</string>
-				<string>D931572F176E7432002057AB</string>
-				<string>DF8701BF891443BDA7CA88B7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D9315725176E7432002057AB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D9315735176E7432002057AB</string>
-				<string>D931573D176E7432002057AB</string>
-				<string>D931573F176E7432002057AB</string>
-				<string>D9315741176E7432002057AB</string>
-				<string>D9315744176E7432002057AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D9315726176E7432002057AB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D931575F176E7432002057AB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>6E1C0E30766E4AC6A67F7CE9</string>
-				<string>D9315723176E7432002057AB</string>
-				<string>D9315724176E7432002057AB</string>
-				<string>D9315725176E7432002057AB</string>
-				<string>EC6490F895E940F1BC7CF99D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>AFNetworkingNocilla</string>
-			<key>productName</key>
-			<string>AFNetworkingNocilla</string>
-			<key>productReference</key>
-			<string>D9315727176E7432002057AB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>D9315727176E7432002057AB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>AFNetworkingNocilla.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D9315728176E7432002057AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9315727176E7432002057AB</string>
-				<string>D931574D176E7432002057AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315729176E7432002057AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D931572A176E7432002057AB</string>
-				<string>D931572C176E7432002057AB</string>
-				<string>D931572E176E7432002057AB</string>
-				<string>D931574E176E7432002057AB</string>
-				<string>F311FEF351BD4B0C9984E1C2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D931572A176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>D931572B176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D931572A176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D931572C176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>D931572D176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D931572C176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D931572E176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>D931572F176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D931572E176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9315730176E7432002057AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9315739176E7432002057AB</string>
-				<string>D931573A176E7432002057AB</string>
-				<string>D9315742176E7432002057AB</string>
-				<string>D9315765176E743A002057AB</string>
-				<string>D9315731176E7432002057AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>AFNetworkingNocilla</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315731176E7432002057AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9315732176E7432002057AB</string>
-				<string>D9315733176E7432002057AB</string>
-				<string>D9315736176E7432002057AB</string>
-				<string>D9315738176E7432002057AB</string>
-				<string>D931573C176E7432002057AB</string>
-				<string>D931573E176E7432002057AB</string>
-				<string>D9315740176E7432002057AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315732176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>AFNetworkingNocilla-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315733176E7432002057AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9315734176E7432002057AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315734176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315735176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9315733176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9315736176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315737176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9315736176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9315738176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AFNetworkingNocilla-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315739176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D931573A176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D931573B176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D931573A176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D931573C176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D931573D176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D931573C176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D931573E176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D931573F176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D931573E176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9315740176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default-568h@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315741176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9315740176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9315742176E7432002057AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9315743176E7432002057AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>MainStoryboard.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315743176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/MainStoryboard.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315744176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9315742176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9315745176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315746176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315747176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9315746176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9315748176E7432002057AB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D931575C176E7432002057AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D9315749176E7432002057AB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D931574F176E7432002057AB</string>
-				<string>D9315750176E7432002057AB</string>
-				<string>D9315751176E7432002057AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D931574A176E7432002057AB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D9315759176E7432002057AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D931574B176E7432002057AB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string># Run the unit tests in this test bundle.
-"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests"
-</string>
-		</dict>
-		<key>D931574C176E7432002057AB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D9315762176E7432002057AB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D9315748176E7432002057AB</string>
-				<string>D9315749176E7432002057AB</string>
-				<string>D931574A176E7432002057AB</string>
-				<string>D931574B176E7432002057AB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>D9315753176E7432002057AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>AFNetworkingNocillaTests</string>
-			<key>productName</key>
-			<string>AFNetworkingNocillaTests</string>
-			<key>productReference</key>
-			<string>D931574D176E7432002057AB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>D931574D176E7432002057AB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>AFNetworkingNocillaTests.octest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D931574E176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SenTestingKit.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/SenTestingKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>D931574F176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D931574E176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9315750176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D931572A176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9315751176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D931572C176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9315752176E7432002057AB</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D931571F176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D9315726176E7432002057AB</string>
-			<key>remoteInfo</key>
-			<string>AFNetworkingNocilla</string>
-		</dict>
-		<key>D9315753176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>D9315726176E7432002057AB</string>
-			<key>targetProxy</key>
-			<string>D9315752176E7432002057AB</string>
-		</dict>
-		<key>D9315754176E7432002057AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D931575A176E7432002057AB</string>
-				<string>D931575B176E7432002057AB</string>
-				<string>D9315755176E7432002057AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>AFNetworkingNocillaTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315755176E7432002057AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9315756176E7432002057AB</string>
-				<string>D9315757176E7432002057AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315756176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>AFNetworkingNocillaTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315757176E7432002057AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9315758176E7432002057AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315758176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9315759176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9315757176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D931575A176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AFNetworkingNocillaTests.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D931575B176E7432002057AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AFNetworkingNocillaTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D931575C176E7432002057AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D931575B176E7432002057AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D931575D176E7432002057AB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D931575E176E7432002057AB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
-				<key>OTHER_CFLAGS</key>
-				<string>-DNS_BLOCK_ASSERTIONS=1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D931575F176E7432002057AB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D9315760176E7432002057AB</string>
-				<string>D9315761176E7432002057AB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D9315760176E7432002057AB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CBA1299FD7814858A9881342</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>AFNetworkingNocilla/AFNetworkingNocilla-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>AFNetworkingNocilla/AFNetworkingNocilla-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D9315761176E7432002057AB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CBA1299FD7814858A9881342</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>AFNetworkingNocilla/AFNetworkingNocilla-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>AFNetworkingNocilla/AFNetworkingNocilla-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D9315762176E7432002057AB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D9315763176E7432002057AB</string>
-				<string>D9315764176E7432002057AB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D9315763176E7432002057AB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/AFNetworkingNocilla.app/AFNetworkingNocilla</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>"$(SDKROOT)/Developer/Library/Frameworks"</string>
-					<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>AFNetworkingNocilla/AFNetworkingNocilla-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>AFNetworkingNocillaTests/AFNetworkingNocillaTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>octest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D9315764176E7432002057AB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/AFNetworkingNocilla.app/AFNetworkingNocilla</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>"$(SDKROOT)/Developer/Library/Frameworks"</string>
-					<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>AFNetworkingNocilla/AFNetworkingNocilla-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>AFNetworkingNocillaTests/AFNetworkingNocillaTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>octest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D9315765176E743A002057AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9315745176E7432002057AB</string>
-				<string>D9315746176E7432002057AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ViewControllers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DF8701BF891443BDA7CA88B7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F311FEF351BD4B0C9984E1C2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>EC6490F895E940F1BC7CF99D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>1</string>
-		</dict>
-		<key>F311FEF351BD4B0C9984E1C2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D931571F176E7432002057AB</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D931572B176E7432002057AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D931572A176E7432002057AB /* UIKit.framework */; };
+		D931572D176E7432002057AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D931572C176E7432002057AB /* Foundation.framework */; };
+		D931572F176E7432002057AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D931572E176E7432002057AB /* CoreGraphics.framework */; };
+		D9315735176E7432002057AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9315733176E7432002057AB /* InfoPlist.strings */; };
+		D9315737176E7432002057AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9315736176E7432002057AB /* main.m */; };
+		D931573B176E7432002057AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D931573A176E7432002057AB /* AppDelegate.m */; };
+		D931573D176E7432002057AB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D931573C176E7432002057AB /* Default.png */; };
+		D931573F176E7432002057AB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D931573E176E7432002057AB /* Default@2x.png */; };
+		D9315741176E7432002057AB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9315740176E7432002057AB /* Default-568h@2x.png */; };
+		D9315744176E7432002057AB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9315742176E7432002057AB /* MainStoryboard.storyboard */; };
+		D9315747176E7432002057AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9315746176E7432002057AB /* ViewController.m */; };
+		D931574F176E7432002057AB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D931574E176E7432002057AB /* SenTestingKit.framework */; };
+		D9315750176E7432002057AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D931572A176E7432002057AB /* UIKit.framework */; };
+		D9315751176E7432002057AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D931572C176E7432002057AB /* Foundation.framework */; };
+		D9315759176E7432002057AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9315757176E7432002057AB /* InfoPlist.strings */; };
+		D931575C176E7432002057AB /* AFNetworkingNocillaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D931575B176E7432002057AB /* AFNetworkingNocillaTests.m */; };
+		D9496060176E7A4C004738AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D949605F176E7A4C004738AB /* SystemConfiguration.framework */; };
+		D9496062176E7A5C004738AB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9496061176E7A5C004738AB /* MobileCoreServices.framework */; };
+		DF8701BF891443BDA7CA88B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F311FEF351BD4B0C9984E1C2 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9315752176E7432002057AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D931571F176E7432002057AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9315726176E7432002057AB;
+			remoteInfo = AFNetworkingNocilla;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBA1299FD7814858A9881342 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		D9315727176E7432002057AB /* AFNetworkingNocilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingNocilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D931572A176E7432002057AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D931572C176E7432002057AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D931572E176E7432002057AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9315732176E7432002057AB /* AFNetworkingNocilla-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFNetworkingNocilla-Info.plist"; sourceTree = "<group>"; };
+		D9315734176E7432002057AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9315736176E7432002057AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9315738176E7432002057AB /* AFNetworkingNocilla-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworkingNocilla-Prefix.pch"; sourceTree = "<group>"; };
+		D9315739176E7432002057AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D931573A176E7432002057AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D931573C176E7432002057AB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D931573E176E7432002057AB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D9315740176E7432002057AB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D9315743176E7432002057AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D9315745176E7432002057AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9315746176E7432002057AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D931574D176E7432002057AB /* AFNetworkingNocillaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkingNocillaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D931574E176E7432002057AB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9315756176E7432002057AB /* AFNetworkingNocillaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFNetworkingNocillaTests-Info.plist"; sourceTree = "<group>"; };
+		D9315758176E7432002057AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D931575A176E7432002057AB /* AFNetworkingNocillaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingNocillaTests.h; sourceTree = "<group>"; };
+		D931575B176E7432002057AB /* AFNetworkingNocillaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingNocillaTests.m; sourceTree = "<group>"; };
+		D949605F176E7A4C004738AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D9496061176E7A5C004738AB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F311FEF351BD4B0C9984E1C2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9315724176E7432002057AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9496062176E7A5C004738AB /* MobileCoreServices.framework in Frameworks */,
+				D9496060176E7A4C004738AB /* SystemConfiguration.framework in Frameworks */,
+				D931572B176E7432002057AB /* UIKit.framework in Frameworks */,
+				D931572D176E7432002057AB /* Foundation.framework in Frameworks */,
+				D931572F176E7432002057AB /* CoreGraphics.framework in Frameworks */,
+				DF8701BF891443BDA7CA88B7 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9315749176E7432002057AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D931574F176E7432002057AB /* SenTestingKit.framework in Frameworks */,
+				D9315750176E7432002057AB /* UIKit.framework in Frameworks */,
+				D9315751176E7432002057AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D931571E176E7432002057AB = {
+			isa = PBXGroup;
+			children = (
+				D9315730176E7432002057AB /* AFNetworkingNocilla */,
+				D9315754176E7432002057AB /* AFNetworkingNocillaTests */,
+				D9315729176E7432002057AB /* Frameworks */,
+				D9315728176E7432002057AB /* Products */,
+				CBA1299FD7814858A9881342 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		D9315728176E7432002057AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9315727176E7432002057AB /* AFNetworkingNocilla.app */,
+				D931574D176E7432002057AB /* AFNetworkingNocillaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9315729176E7432002057AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9496061176E7A5C004738AB /* MobileCoreServices.framework */,
+				D949605F176E7A4C004738AB /* SystemConfiguration.framework */,
+				D931572A176E7432002057AB /* UIKit.framework */,
+				D931572C176E7432002057AB /* Foundation.framework */,
+				D931572E176E7432002057AB /* CoreGraphics.framework */,
+				D931574E176E7432002057AB /* SenTestingKit.framework */,
+				F311FEF351BD4B0C9984E1C2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9315730176E7432002057AB /* AFNetworkingNocilla */ = {
+			isa = PBXGroup;
+			children = (
+				D9315739176E7432002057AB /* AppDelegate.h */,
+				D931573A176E7432002057AB /* AppDelegate.m */,
+				D9315742176E7432002057AB /* MainStoryboard.storyboard */,
+				D9315765176E743A002057AB /* ViewControllers */,
+				D9315731176E7432002057AB /* Supporting Files */,
+			);
+			path = AFNetworkingNocilla;
+			sourceTree = "<group>";
+		};
+		D9315731176E7432002057AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9315732176E7432002057AB /* AFNetworkingNocilla-Info.plist */,
+				D9315733176E7432002057AB /* InfoPlist.strings */,
+				D9315736176E7432002057AB /* main.m */,
+				D9315738176E7432002057AB /* AFNetworkingNocilla-Prefix.pch */,
+				D931573C176E7432002057AB /* Default.png */,
+				D931573E176E7432002057AB /* Default@2x.png */,
+				D9315740176E7432002057AB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9315754176E7432002057AB /* AFNetworkingNocillaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D931575A176E7432002057AB /* AFNetworkingNocillaTests.h */,
+				D931575B176E7432002057AB /* AFNetworkingNocillaTests.m */,
+				D9315755176E7432002057AB /* Supporting Files */,
+			);
+			path = AFNetworkingNocillaTests;
+			sourceTree = "<group>";
+		};
+		D9315755176E7432002057AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9315756176E7432002057AB /* AFNetworkingNocillaTests-Info.plist */,
+				D9315757176E7432002057AB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9315765176E743A002057AB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9315745176E7432002057AB /* ViewController.h */,
+				D9315746176E7432002057AB /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9315726176E7432002057AB /* AFNetworkingNocilla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D931575F176E7432002057AB /* Build configuration list for PBXNativeTarget "AFNetworkingNocilla" */;
+			buildPhases = (
+				6E1C0E30766E4AC6A67F7CE9 /* Check Pods Manifest.lock */,
+				D9315723176E7432002057AB /* Sources */,
+				D9315724176E7432002057AB /* Frameworks */,
+				D9315725176E7432002057AB /* Resources */,
+				EC6490F895E940F1BC7CF99D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworkingNocilla;
+			productName = AFNetworkingNocilla;
+			productReference = D9315727176E7432002057AB /* AFNetworkingNocilla.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D931574C176E7432002057AB /* AFNetworkingNocillaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9315762176E7432002057AB /* Build configuration list for PBXNativeTarget "AFNetworkingNocillaTests" */;
+			buildPhases = (
+				D9315748176E7432002057AB /* Sources */,
+				D9315749176E7432002057AB /* Frameworks */,
+				D931574A176E7432002057AB /* Resources */,
+				D931574B176E7432002057AB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9315753176E7432002057AB /* PBXTargetDependency */,
+			);
+			name = AFNetworkingNocillaTests;
+			productName = AFNetworkingNocillaTests;
+			productReference = D931574D176E7432002057AB /* AFNetworkingNocillaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D931571F176E7432002057AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Raphael Oliveira";
+			};
+			buildConfigurationList = D9315722176E7432002057AB /* Build configuration list for PBXProject "AFNetworkingNocilla" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D931571E176E7432002057AB;
+			productRefGroup = D9315728176E7432002057AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9315726176E7432002057AB /* AFNetworkingNocilla */,
+				D931574C176E7432002057AB /* AFNetworkingNocillaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9315725176E7432002057AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9315735176E7432002057AB /* InfoPlist.strings in Resources */,
+				D931573D176E7432002057AB /* Default.png in Resources */,
+				D931573F176E7432002057AB /* Default@2x.png in Resources */,
+				D9315741176E7432002057AB /* Default-568h@2x.png in Resources */,
+				D9315744176E7432002057AB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D931574A176E7432002057AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9315759176E7432002057AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E1C0E30766E4AC6A67F7CE9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		D931574B176E7432002057AB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		EC6490F895E940F1BC7CF99D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9315723176E7432002057AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9315737176E7432002057AB /* main.m in Sources */,
+				D931573B176E7432002057AB /* AppDelegate.m in Sources */,
+				D9315747176E7432002057AB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9315748176E7432002057AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D931575C176E7432002057AB /* AFNetworkingNocillaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9315753176E7432002057AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9315726176E7432002057AB /* AFNetworkingNocilla */;
+			targetProxy = D9315752176E7432002057AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9315733176E7432002057AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9315734176E7432002057AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9315742176E7432002057AB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9315743176E7432002057AB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		D9315757176E7432002057AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9315758176E7432002057AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D931575D176E7432002057AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D931575E176E7432002057AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9315760176E7432002057AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA1299FD7814858A9881342 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworkingNocilla/AFNetworkingNocilla-Prefix.pch";
+				INFOPLIST_FILE = "AFNetworkingNocilla/AFNetworkingNocilla-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9315761176E7432002057AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA1299FD7814858A9881342 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworkingNocilla/AFNetworkingNocilla-Prefix.pch";
+				INFOPLIST_FILE = "AFNetworkingNocilla/AFNetworkingNocilla-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D9315763176E7432002057AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA1299FD7814858A9881342 /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AFNetworkingNocilla.app/AFNetworkingNocilla";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworkingNocilla/AFNetworkingNocilla-Prefix.pch";
+				INFOPLIST_FILE = "AFNetworkingNocillaTests/AFNetworkingNocillaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D9315764176E7432002057AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA1299FD7814858A9881342 /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AFNetworkingNocilla.app/AFNetworkingNocilla";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworkingNocilla/AFNetworkingNocilla-Prefix.pch";
+				INFOPLIST_FILE = "AFNetworkingNocillaTests/AFNetworkingNocillaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9315722176E7432002057AB /* Build configuration list for PBXProject "AFNetworkingNocilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D931575D176E7432002057AB /* Debug */,
+				D931575E176E7432002057AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D931575F176E7432002057AB /* Build configuration list for PBXNativeTarget "AFNetworkingNocilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9315760176E7432002057AB /* Debug */,
+				D9315761176E7432002057AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9315762176E7432002057AB /* Build configuration list for PBXNativeTarget "AFNetworkingNocillaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9315763176E7432002057AB /* Debug */,
+				D9315764176E7432002057AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D931571F176E7432002057AB /* Project object */;
+}
