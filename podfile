@@ -1,0 +1,2 @@
+pod 'AFNetworking', '~> 1.3.0'
+pod 'Nocilla', '~> 0.5'
