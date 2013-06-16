@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D931572B176E7432002057AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D931572A176E7432002057AB /* UIKit.framework */; };
+		D931572D176E7432002057AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D931572C176E7432002057AB /* Foundation.framework */; };
+		D931572F176E7432002057AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D931572E176E7432002057AB /* CoreGraphics.framework */; };
+		D9315735176E7432002057AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9315733176E7432002057AB /* InfoPlist.strings */; };
+		D9315737176E7432002057AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9315736176E7432002057AB /* main.m */; };
+		D931573B176E7432002057AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D931573A176E7432002057AB /* AppDelegate.m */; };
+		D931573D176E7432002057AB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D931573C176E7432002057AB /* Default.png */; };
+		D931573F176E7432002057AB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D931573E176E7432002057AB /* Default@2x.png */; };
+		D9315741176E7432002057AB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9315740176E7432002057AB /* Default-568h@2x.png */; };
+		D9315744176E7432002057AB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9315742176E7432002057AB /* MainStoryboard.storyboard */; };
+		D9315747176E7432002057AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9315746176E7432002057AB /* ViewController.m */; };
+		D931574F176E7432002057AB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D931574E176E7432002057AB /* SenTestingKit.framework */; };
+		D9315750176E7432002057AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D931572A176E7432002057AB /* UIKit.framework */; };
+		D9315751176E7432002057AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D931572C176E7432002057AB /* Foundation.framework */; };
+		D9315759176E7432002057AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9315757176E7432002057AB /* InfoPlist.strings */; };
+		D931575C176E7432002057AB /* AFNetworkingNocillaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D931575B176E7432002057AB /* AFNetworkingNocillaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9315752176E7432002057AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D931571F176E7432002057AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9315726176E7432002057AB;
+			remoteInfo = AFNetworkingNocilla;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9315727176E7432002057AB /* AFNetworkingNocilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingNocilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D931572A176E7432002057AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D931572C176E7432002057AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D931572E176E7432002057AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9315732176E7432002057AB /* AFNetworkingNocilla-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFNetworkingNocilla-Info.plist"; sourceTree = "<group>"; };
+		D9315734176E7432002057AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9315736176E7432002057AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9315738176E7432002057AB /* AFNetworkingNocilla-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworkingNocilla-Prefix.pch"; sourceTree = "<group>"; };
+		D9315739176E7432002057AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D931573A176E7432002057AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D931573C176E7432002057AB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D931573E176E7432002057AB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D9315740176E7432002057AB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D9315743176E7432002057AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D9315745176E7432002057AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9315746176E7432002057AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D931574D176E7432002057AB /* AFNetworkingNocillaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkingNocillaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D931574E176E7432002057AB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9315756176E7432002057AB /* AFNetworkingNocillaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFNetworkingNocillaTests-Info.plist"; sourceTree = "<group>"; };
+		D9315758176E7432002057AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D931575A176E7432002057AB /* AFNetworkingNocillaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingNocillaTests.h; sourceTree = "<group>"; };
+		D931575B176E7432002057AB /* AFNetworkingNocillaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingNocillaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9315724176E7432002057AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D931572B176E7432002057AB /* UIKit.framework in Frameworks */,
+				D931572D176E7432002057AB /* Foundation.framework in Frameworks */,
+				D931572F176E7432002057AB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9315749176E7432002057AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D931574F176E7432002057AB /* SenTestingKit.framework in Frameworks */,
+				D9315750176E7432002057AB /* UIKit.framework in Frameworks */,
+				D9315751176E7432002057AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D931571E176E7432002057AB = {
+			isa = PBXGroup;
+			children = (
+				D9315730176E7432002057AB /* AFNetworkingNocilla */,
+				D9315754176E7432002057AB /* AFNetworkingNocillaTests */,
+				D9315729176E7432002057AB /* Frameworks */,
+				D9315728176E7432002057AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9315728176E7432002057AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9315727176E7432002057AB /* AFNetworkingNocilla.app */,
+				D931574D176E7432002057AB /* AFNetworkingNocillaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9315729176E7432002057AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D931572A176E7432002057AB /* UIKit.framework */,
+				D931572C176E7432002057AB /* Foundation.framework */,
+				D931572E176E7432002057AB /* CoreGraphics.framework */,
+				D931574E176E7432002057AB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9315730176E7432002057AB /* AFNetworkingNocilla */ = {
+			isa = PBXGroup;
+			children = (
+				D9315739176E7432002057AB /* AppDelegate.h */,
+				D931573A176E7432002057AB /* AppDelegate.m */,
+				D9315742176E7432002057AB /* MainStoryboard.storyboard */,
+				D9315745176E7432002057AB /* ViewController.h */,
+				D9315746176E7432002057AB /* ViewController.m */,
+				D9315731176E7432002057AB /* Supporting Files */,
+			);
+			path = AFNetworkingNocilla;
+			sourceTree = "<group>";
+		};
+		D9315731176E7432002057AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9315732176E7432002057AB /* AFNetworkingNocilla-Info.plist */,
+				D9315733176E7432002057AB /* InfoPlist.strings */,
+				D9315736176E7432002057AB /* main.m */,
+				D9315738176E7432002057AB /* AFNetworkingNocilla-Prefix.pch */,
+				D931573C176E7432002057AB /* Default.png */,
+				D931573E176E7432002057AB /* Default@2x.png */,
+				D9315740176E7432002057AB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9315754176E7432002057AB /* AFNetworkingNocillaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D931575A176E7432002057AB /* AFNetworkingNocillaTests.h */,
+				D931575B176E7432002057AB /* AFNetworkingNocillaTests.m */,
+				D9315755176E7432002057AB /* Supporting Files */,
+			);
+			path = AFNetworkingNocillaTests;
+			sourceTree = "<group>";
+		};
+		D9315755176E7432002057AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9315756176E7432002057AB /* AFNetworkingNocillaTests-Info.plist */,
+				D9315757176E7432002057AB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9315726176E7432002057AB /* AFNetworkingNocilla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D931575F176E7432002057AB /* Build configuration list for PBXNativeTarget "AFNetworkingNocilla" */;
+			buildPhases = (
+				D9315723176E7432002057AB /* Sources */,
+				D9315724176E7432002057AB /* Frameworks */,
+				D9315725176E7432002057AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworkingNocilla;
+			productName = AFNetworkingNocilla;
+			productReference = D9315727176E7432002057AB /* AFNetworkingNocilla.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D931574C176E7432002057AB /* AFNetworkingNocillaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9315762176E7432002057AB /* Build configuration list for PBXNativeTarget "AFNetworkingNocillaTests" */;
+			buildPhases = (
+				D9315748176E7432002057AB /* Sources */,
+				D9315749176E7432002057AB /* Frameworks */,
+				D931574A176E7432002057AB /* Resources */,
+				D931574B176E7432002057AB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9315753176E7432002057AB /* PBXTargetDependency */,
+			);
+			name = AFNetworkingNocillaTests;
+			productName = AFNetworkingNocillaTests;
+			productReference = D931574D176E7432002057AB /* AFNetworkingNocillaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D931571F176E7432002057AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Raphael Oliveira";
+			};
+			buildConfigurationList = D9315722176E7432002057AB /* Build configuration list for PBXProject "AFNetworkingNocilla" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D931571E176E7432002057AB;
+			productRefGroup = D9315728176E7432002057AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9315726176E7432002057AB /* AFNetworkingNocilla */,
+				D931574C176E7432002057AB /* AFNetworkingNocillaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9315725176E7432002057AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9315735176E7432002057AB /* InfoPlist.strings in Resources */,
+				D931573D176E7432002057AB /* Default.png in Resources */,
+				D931573F176E7432002057AB /* Default@2x.png in Resources */,
+				D9315741176E7432002057AB /* Default-568h@2x.png in Resources */,
+				D9315744176E7432002057AB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D931574A176E7432002057AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9315759176E7432002057AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D931574B176E7432002057AB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9315723176E7432002057AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9315737176E7432002057AB /* main.m in Sources */,
+				D931573B176E7432002057AB /* AppDelegate.m in Sources */,
+				D9315747176E7432002057AB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9315748176E7432002057AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D931575C176E7432002057AB /* AFNetworkingNocillaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9315753176E7432002057AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9315726176E7432002057AB /* AFNetworkingNocilla */;
+			targetProxy = D9315752176E7432002057AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9315733176E7432002057AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9315734176E7432002057AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9315742176E7432002057AB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9315743176E7432002057AB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		D9315757176E7432002057AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9315758176E7432002057AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D931575D176E7432002057AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D931575E176E7432002057AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9315760176E7432002057AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworkingNocilla/AFNetworkingNocilla-Prefix.pch";
+				INFOPLIST_FILE = "AFNetworkingNocilla/AFNetworkingNocilla-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9315761176E7432002057AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworkingNocilla/AFNetworkingNocilla-Prefix.pch";
+				INFOPLIST_FILE = "AFNetworkingNocilla/AFNetworkingNocilla-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D9315763176E7432002057AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AFNetworkingNocilla.app/AFNetworkingNocilla";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworkingNocilla/AFNetworkingNocilla-Prefix.pch";
+				INFOPLIST_FILE = "AFNetworkingNocillaTests/AFNetworkingNocillaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D9315764176E7432002057AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AFNetworkingNocilla.app/AFNetworkingNocilla";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworkingNocilla/AFNetworkingNocilla-Prefix.pch";
+				INFOPLIST_FILE = "AFNetworkingNocillaTests/AFNetworkingNocillaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9315722176E7432002057AB /* Build configuration list for PBXProject "AFNetworkingNocilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D931575D176E7432002057AB /* Debug */,
+				D931575E176E7432002057AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D931575F176E7432002057AB /* Build configuration list for PBXNativeTarget "AFNetworkingNocilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9315760176E7432002057AB /* Debug */,
+				D9315761176E7432002057AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9315762176E7432002057AB /* Build configuration list for PBXNativeTarget "AFNetworkingNocillaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9315763176E7432002057AB /* Debug */,
+				D9315764176E7432002057AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D931571F176E7432002057AB /* Project object */;
+}
