@@ -25,6 +25,7 @@
 		D931575C176E7432002057AB /* AFNetworkingNocillaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D931575B176E7432002057AB /* AFNetworkingNocillaTests.m */; };
 		D9496060176E7A4C004738AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D949605F176E7A4C004738AB /* SystemConfiguration.framework */; };
 		D9496062176E7A5C004738AB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9496061176E7A5C004738AB /* MobileCoreServices.framework */; };
+		D9496065176E80F1004738AB /* testStubSimpleRequest.json in Resources */ = {isa = PBXBuildFile; fileRef = D9496064176E80F1004738AB /* testStubSimpleRequest.json */; };
 		DF8701BF891443BDA7CA88B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F311FEF351BD4B0C9984E1C2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		D931575B176E7432002057AB /* AFNetworkingNocillaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingNocillaTests.m; sourceTree = "<group>"; };
 		D949605F176E7A4C004738AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D9496061176E7A5C004738AB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D9496064176E80F1004738AB /* testStubSimpleRequest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testStubSimpleRequest.json; sourceTree = "<group>"; };
 		F311FEF351BD4B0C9984E1C2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -159,6 +161,7 @@
 			children = (
 				D931575A176E7432002057AB /* AFNetworkingNocillaTests.h */,
 				D931575B176E7432002057AB /* AFNetworkingNocillaTests.m */,
+				D9496063176E80D0004738AB /* Fixtures */,
 				D9315755176E7432002057AB /* Supporting Files */,
 			);
 			path = AFNetworkingNocillaTests;
@@ -180,6 +183,14 @@
 				D9315746176E7432002057AB /* ViewController.m */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D9496063176E80D0004738AB /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				D9496064176E80F1004738AB /* testStubSimpleRequest.json */,
+			);
+			name = Fixtures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9315759176E7432002057AB /* InfoPlist.strings in Resources */,
+				D9496065176E80F1004738AB /* testStubSimpleRequest.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

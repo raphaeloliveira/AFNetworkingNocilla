@@ -1,0 +1,38 @@
+{
+    "coord": {
+        "lon": 10.10101,
+        "lat": 20.20202
+    },
+    "sys": {
+        "country": "BR",
+        "sunrise": 1371354150,
+        "sunset": 1371414011
+    },
+    "weather": [
+                {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03n"
+                }
+                ],
+    "base": "global stations",
+    "main": {
+        "temp": 286.26,
+        "humidity": 79,
+        "pressure": 1014,
+        "temp_min": 285.37,
+        "temp_max": 287.15
+    },
+    "wind": {
+        "speed": 1.16,
+        "deg": 105
+    },
+    "clouds": {
+        "all": 48
+    },
+    "dt": 1371423784,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
